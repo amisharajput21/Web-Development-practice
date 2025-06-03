@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS boxModel</title>
+    <style>
+        .box1{
+            background-color:aqua;
+            color:black;
+            padding: 50px;
+            margin: 50px;
+            border: 5px solid blue;
+            height:0;
+            box-sizing: border-box;
+        }
+        .box2{
+            background-color:blueviolet;
+            color:black;
+            padding: 50px;
+            margin: 50px;
+            border: 5px solid green;
+            height:0;
+            box-sizing: border-box;
+        }
+        /* Margin Collapse */
+       /* when margin of two elemnts overlapped then maximum margin will be used. */
+    </style>
+</head>
+<body>
+    <div class="box1">
+        HELLO WORLD!
+    </div>
+    <div class="box2">
+        I am Amisha Rajput.
+    </div>
+</body>
+</html>
